@@ -2,8 +2,6 @@
 
 Proyecto final de Programación II (Universidad CES, 2026). Un mini invernadero que mide humedad del suelo, temperatura, humedad del aire y luz, y decide solo cuándo regar, ventilar o encender las luces. Cada 5 segundos envía los datos a un servidor para mostrarlos en un dashboard.
 
-> 
-
 ## ¿Qué hace?
 
 | Qué mide | Sensor | Qué decide |
@@ -53,12 +51,7 @@ Está escrito en **MicroPython** con programación orientada a objetos y `uasync
 2. Copia `config_example.py` como `config.py` y pon los datos de tu red WiFi y la IP del servidor.
 3. Reinicia la placa. Empieza a medir y a enviar datos.
 
-## Dashboard
-
-
-
 ## Qué aprendí
-
 - A estructurar un proyecto embebido con clases y no con un solo script largo.
 - A calibrar sensores analógicos y a usar histéresis para evitar oscilaciones.
 - A manejar varias tareas a la vez con `uasyncio` y a conectar un dispositivo a un servidor por HTTP.
